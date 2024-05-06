@@ -3,7 +3,7 @@
 
 import Foundation
 
-@main
+//@main
 class Optionals {
 
     static func main() throws {

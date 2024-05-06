@@ -30,14 +30,15 @@ class Loops {
     // 文字列
     let word = "Hello Swift"
     
-    //  Range
+    //  Range (1 から 4の値を表す)
     let halfOpenRange = 1..<5
-    //  ClosedRange
+    //  ClosedRange (1 から 5 を表す)
     let closedRange = 1...5
 
-
     func printFromStringArray(array: [String]) {
+        // for 変数 in シーケンス(配列や数値範囲など)
         for stringContent in array {
+            // 繰り返し実行する処理
             print(stringContent)
         }
     }
