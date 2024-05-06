@@ -7,7 +7,7 @@
 
 import Foundation
 
-@main
+//@main
 class Loops {
     static func main() throws {
         let loops = Loops()
