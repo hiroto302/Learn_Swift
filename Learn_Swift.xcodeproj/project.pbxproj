@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A70210612BE8FAF400008AE1 /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70210602BE8FAF400008AE1 /* Optionals.swift */; };
+		A70210642BE909A000008AE1 /* Closure0.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70210632BE909A000008AE1 /* Closure0.swift */; };
 		A74858952BD4F2D900C55114 /* Learn_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74858942BD4F2D900C55114 /* Learn_SwiftApp.swift */; };
 		A74858972BD4F2D900C55114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74858962BD4F2D900C55114 /* ContentView.swift */; };
 		A74858992BD4F2DB00C55114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74858982BD4F2DB00C55114 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A70210602BE8FAF400008AE1 /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
+		A70210632BE909A000008AE1 /* Closure0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure0.swift; sourceTree = "<group>"; };
 		A74858912BD4F2D900C55114 /* Learn_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74858942BD4F2D900C55114 /* Learn_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_SwiftApp.swift; sourceTree = "<group>"; };
 		A74858962BD4F2D900C55114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 			path = Optionals;
 			sourceTree = "<group>";
 		};
+		A70210622BE9098500008AE1 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				A70210632BE909A000008AE1 /* Closure0.swift */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
 		A74858882BD4F2D900C55114 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		A74858932BD4F2D900C55114 /* Learn_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A70210622BE9098500008AE1 /* Closures */,
 				A702105F2BE8FAAE00008AE1 /* Optionals */,
 				A702105E2BE8F9CF00008AE1 /* Loops */,
 				A74858942BD4F2D900C55114 /* Learn_SwiftApp.swift */,
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74858972BD4F2D900C55114 /* ContentView.swift in Sources */,
+				A70210642BE909A000008AE1 /* Closure0.swift in Sources */,
 				A70210612BE8FAF400008AE1 /* Optionals.swift in Sources */,
 				A74858A42BD4F2F800C55114 /* Loops.swift in Sources */,
 				A74858952BD4F2D900C55114 /* Learn_SwiftApp.swift in Sources */,
